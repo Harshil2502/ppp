@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global soft pink theme */
+@layer base {
+  body {
+    @apply bg-pinky-light text-pinky-dark font-inter;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.heart { filter: drop-shadow(0 6px 12px rgba(255,76,139,0.12)); }
